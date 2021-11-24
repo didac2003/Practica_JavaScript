@@ -90,9 +90,9 @@ console.log(numero(3,3))
 */
 
 //Ex11
-
+/*
 var ex11 = a => Math.sqrt(a) 
 console.log(ex11(4))
-
+*/
 
 
