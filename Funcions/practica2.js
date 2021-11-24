@@ -93,6 +93,7 @@ console.log(numero(3,3))
 /*
 var ex11 = a => Math.sqrt(a) 
 console.log(ex11(4))
+sdadsda
 */
 
 
