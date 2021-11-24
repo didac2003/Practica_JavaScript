@@ -72,9 +72,9 @@ console.log(numero(15,15))
 //Ex9
 /*
 var numero = function(a,b){
-if (a == 30 || b == 30 || a+b == 30) {
+    if (a == 30 || b == 30 || a+b == 30) {
     return true
-}
+    }
 }
 console.log(numero(30,15))
 */
@@ -91,9 +91,10 @@ console.log(numero(3,3))
 
 //Ex11
 /*
-var ex11 = a => Math.sqrt(a) 
-console.log(ex11(4))
-sdadsda
-*/
+var ex11 = a => Math.sqrt(a).toFixed(2)
+console.log(ex11(5.67))
+/*
+
+
 
 
