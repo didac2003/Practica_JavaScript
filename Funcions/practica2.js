@@ -93,8 +93,12 @@ console.log(numero(3,3))
 /*
 var ex11 = a => Math.sqrt(a).toFixed(2)
 console.log(ex11(5.67))
+*/
+
+//Ex12
 /*
-
-
+var ex12 = a => a.toLowerCase()
+console.log(ex12("ADRIA GUAPO"))
+*/
 
 
