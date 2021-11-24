@@ -15,12 +15,12 @@ fnom()
 */
 
 //Ex3
-
+/*
 function fdata (fecha= new Date()){
 console.log(fecha)
 }
-//fdata()
-
+fdata()
+*/
 
 //Ex4
 /*
@@ -43,19 +43,21 @@ console.log(total);
 */
 
 //Ex6
-
+/*
 function numeros(a,b, c=7){
     return a+b+c
 }
-//console.log(numeros(10, 6))
-
+console.log(numeros(10, 6))
+*/
 
 //Ex7
+/*
 function ex7(a,b,c){
     fdata()
     return numeros(a,b,c)
 }
 console.log(ex7(4,5,6))
+*/
 
 //Ex8
 /*
