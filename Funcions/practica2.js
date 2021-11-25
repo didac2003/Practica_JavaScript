@@ -101,4 +101,13 @@ var ex12 = a => a.toLowerCase()
 console.log(ex12("ADRIA GUAPO"))
 */
 
-
+//Ex13
+var ex13 = (a,b) => {
+    if (a!=null && b==null)
+        return a
+    else if (a==null && b!=null)
+        return b
+    else if (a!=null && b!=null)
+        return [a,b] 
+}
+console.log(ex13(10,null))
