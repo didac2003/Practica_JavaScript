@@ -102,6 +102,7 @@ console.log(ex12("ADRIA GUAPO"))
 */
 
 //Ex13
+/*
 var ex13 = (a,b) => {
     if (a!=null && b==null)
         return a
@@ -111,3 +112,21 @@ var ex13 = (a,b) => {
         return [a,b] 
 }
 console.log(ex13(10,null))
+*/
+
+//Ex14
+
+var posicio = (x,y) => {
+
+    return (x.length-x.indexOf(y))
+}
+console.log(posicio('Hola bondia mite','bondia'));
+
+var dividir = (x,y) => {
+
+    return y.substr((y.length-x),x)
+}
+
+console.log(dividir(posicio('Hola bondia mite','bondia'),'Hola bondia mite'))
+
+
