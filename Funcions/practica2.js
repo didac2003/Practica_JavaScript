@@ -110,8 +110,10 @@ var ex13 = (a,b) => {
         return b
     else if (a!=null && b!=null)
         return [a,b] 
+    else
+        return ("Els 2 són null") 
 }
-console.log(ex13(10,null))
+console.log(ex13(null,null))
 */
 
 //Ex14
