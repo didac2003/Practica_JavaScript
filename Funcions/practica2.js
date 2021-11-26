@@ -115,7 +115,7 @@ console.log(ex13(10,null))
 */
 
 //Ex14
-
+/*
 var posicio = (x,y) => {
 
     return (x.length-x.indexOf(y))
@@ -128,5 +128,12 @@ var dividir = (x,y) => {
 }
 
 console.log(dividir(posicio('Hola bondia mite','bondia'),'Hola bondia mite'))
+*/
 
+//Ex15
 
+var funcio1 = (x) => x + x + x
+console.log(funcio1(4))
+
+var funcio2 = (p, n, r, t) => p * Math.pow(1 + (r / n), n * t)
+console.log(funcio2(1,1,1,2))
