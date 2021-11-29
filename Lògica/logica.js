@@ -30,12 +30,26 @@ console.log('El número ' + y + " no està dins del rang")
 */
 
 //Ex3
-var a = 4
+var a = 9
 
-switch (a){
-    case a<5:
+switch ((a<5) ? 0 : (a>=5 && a<6) ? 1 : (a>=6 && a<7) ? 2 : (a>=7 && a<9) ? 3 : 4){
+    case 0:
         console.log("Molt bé senyor, has suspès")
+    break
 
+    case 1:
+        console.log("Molt bé senyor, un suficient")
+    break
 
+    case 2:
+        console.log("Molt bé senyor, un bé")
+        break
 
+    case 3:
+        console.log("Molt bé senyor, un notable")
+    break
+
+    case 4:
+        console.log("Molt bé senyor, un excel·lent")
+    break
 }
