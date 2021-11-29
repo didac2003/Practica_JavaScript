@@ -9,6 +9,4 @@ if (( num % 3 ) == 0){
 else{
     console.log('El numero no es multiple de 3 ni de 7');
 }
-*/
-
-
+/*
